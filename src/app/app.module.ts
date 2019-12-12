@@ -15,7 +15,7 @@ import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule // For NgModel
   ],
   providers: [],
   bootstrap: [AppComponent]
