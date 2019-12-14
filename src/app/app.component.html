@@ -3,5 +3,13 @@
     <a routerLink="/dashboard">Dashboard</a>
     <a routerLink="/heroes">Heroes</a>
 </nav>
+
+<p appHighlight>Highlight me!</p>
+<p appHighlight highlightColor="black">Highlighted in yellow</p>
+<!-- <p appHighlight [highlightColor]="'orange'">Highlighted in orange</p> -->
+<!-- <p appHighlight [highlightColor]="color">Highlighted with parent component's color</p> -->
+<p [appHighlight]="color">Highlight me!</p>
+
 <router-outlet></router-outlet>
 <app-messages></app-messages>
+
